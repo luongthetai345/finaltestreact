@@ -20,9 +20,6 @@ export default function TodoComplete(){
         });
         setJob("");
     };
-    const deleteJob = () => {
-        
-    }
 
 
     return(
@@ -39,8 +36,6 @@ export default function TodoComplete(){
                         <li>
                             <input type="checkbox" />
                             <p key = {index}>{job}</p>
-                            <br/>
-                            <button>delete</button>
                         </li>
                     ))}
                 </ul>
